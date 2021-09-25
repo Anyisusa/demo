@@ -1,0 +1,176 @@
+*{              
+  margin: 0; 
+  box-sizing: border-box; 
+}
+
+/*barra de navegacion*/
+.header{
+  background-color:rgb(40, 40, 41); 
+  height: 80px; 
+  position: fixed; 
+  width: 100%; 
+  top:0; 
+  left:0;
+ 
+}
+
+.nav{
+  display: flex; 
+  justify-content: space-between; 
+  max-width: 992px; 
+
+}
+
+.nav-link{
+  color: white;
+  text-decoration: none; 
+  margin:0 auto ;
+
+}
+
+div.splide img {
+  width: 100%;
+  height: 550px;
+  padding: 50px ;
+
+}
+
+
+img{
+  width: 90px;
+  height: 90px;
+  padding: 20px;
+  
+
+}
+
+.logo{
+  color: white;
+  font-size: 30px; /*tamaño de fuente*/
+  text-decoration: none; /*para que el texto no quede con la linea debajo*/
+  font-weight: bold; /*para que la letra que mas negrilla*/
+  padding: 0 40px; /* para que quede un relleno arriba y abajo cero y al lado iz y der 40*/
+  line-height: 80px; /*para que quede centrado con respecto a alto del la margen a 80px */
+  border: none;
+}
+
+.nav-menu{
+  display: flex; /* elementos quede de forma horizontal*/
+  margin-right: 40px;  /*queden separados de la margen del lado dre e izq a 40px*/
+  list-style: none; /* quitar las viñetas de la lista*/
+
+}
+
+.nav-menu-item{
+  font-size: 18px; /*tamaño de fuente*/
+  margin: 0 10px; /* una margen entre lso elementos abajo y arriba de 0 y la izq y derecho 10px*/
+  line-height: 80px;
+  text-transform: uppercase; /*para que quede en mayuscula*/
+  width: max-content;/*para que no me corte el contenido una vez disminuya la pagina*/
+
+}
+
+.nav-menu-link{
+  padding: 8px 12px; /*que el relleno tenga un espaciado arriba ya abajo de 8px y izq y derecha de 12px*/
+  border-radius: 3px; /* para que le de un borde de 3px*/
+
+}
+.nav-menu-link:hover {  /*me va permitir que cuando le pase el mouse a los elementos le de un color de relleno*/
+
+  background-color:tomato ; 
+  transition: 0.5s; /*para que la transicion no sea tan rapida y dure 5 s*/
+
+}
+
+
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+
+.tem{
+  text-align:center;
+  width: 30%;
+  padding: 15px;
+  margin-left: 15px;
+  float:left;
+  font-style: italic;
+  background-color: lightgray;
+}
+
+.tem1{
+  text-align:center;
+  width: 30%;
+  padding: 15px;
+  margin-left: 15px;
+  float:left;
+  font-style: italic;
+  background-color: lightgray;
+}
+
+.columna1:after {
+  content: "";
+  display: table;
+  clear: both;
+
+}
+
+.columna2:after {
+  content: "";
+  display:flexbox;
+  clear: both;
+}
+
+
+
+.art{
+  text-align:center;
+  width: 30%;
+  padding: 15px;
+  margin-left: 15px;
+  float:left;
+  font-style: italic;
+  background-color: lightgray;
+}
+
+
+
+.articulos:after {
+  content: "";
+  display: table;
+  clear: both;
+
+}
+
+
+
+footer{
+  background-color: rgb(77, 72, 72);
+  color: aliceblue;
+  text-align:left;
+  padding: 150px;
+  font-size: 20px;
+  list-style: none;
+  
+}
+
+.pie1{
+  list-style: none;
+  float: left;
+
+}
+
+.pie2{
+  list-style: none;
+  float: left;
+ 
+}
+
+
+ 
+
+
+
+
